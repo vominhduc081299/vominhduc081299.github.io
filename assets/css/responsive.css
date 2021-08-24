@@ -1,0 +1,192 @@
+/* Header Navbar */
+@media (min-width:1023px) and (max-width:1239px){
+    .header__heading-navbar{
+        margin-left: 8px;
+    }
+    .header__heading-link{
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+    .sub__item-link{
+        font-size: 1.4rem;
+    }
+
+    .right__item-link{
+        font-size: 1.4rem;
+    }
+}
+/* Tablet ̃& Mobile */
+@media (max-width:1023px){
+    .hide__mobile-tablet{
+        display: none;
+    }
+    .header__heading-flex{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__heading-navbar{
+        margin-left:0;
+        flex-direction: column;
+        overflow: auto;
+    }
+    .header__heading-list{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__heading-item{
+        text-align: left;
+        margin: 10px 0;
+    }
+    .header__heading-link{
+        padding: 0;
+        font-size: 2.8rem;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+    .sub__list{
+        display: block;
+        position: relative;
+        left: 20px;
+        top:0;
+        background-color: transparent;
+        box-shadow: unset;
+    }
+    .sub__item-link:hover{
+        background-color: transparent;
+    }
+    .sub__item-link{
+        padding: 0;
+        border-bottom: none;
+        margin: 16px 0;
+        color: var(--text-color);
+        font-size: 1.8rem;
+    }
+    .right__list{
+        display: block;
+        position: relative;
+        top:0;
+        right: -34px;
+        background-color: transparent;
+        box-shadow: unset;
+    }
+    .right__item-link:hover{
+        background-color: transparent;
+    }
+    .right__item-link{
+        padding: 0;
+        border-bottom: none;
+        margin: 16px 0;
+        color: var(--text-color);
+    }
+    .header__heading-book{
+        font-size: 2.8rem;
+        background-color: transparent;
+        font-weight: bold;
+        width: max-content;
+        letter-spacing: 0;
+    }
+    .header__slider-sub {
+        transform: translateY(20%);
+        text-align: center;
+    }
+    .header__slider-wrap-category{
+        margin-top: 46px;
+    }
+    .header__slider-wrap-category-item--square{
+        margin: 0 8px;
+    }
+    .content__dentination>.grid.wide{
+        width: 100%;
+    }
+    .content__dentination-tour{
+        padding: 0 30px;
+    }
+    .content__holiday-view{
+        transform: unset;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+    .best_beaches{
+        padding: 0 2rem;
+    }
+    
+    .best_beaches-main-content-intro{
+        padding-right: 0;
+    }
+    .footer{
+        padding: 5rem 3rem;
+    }
+    .footer .wide{
+        width: unset;
+    }
+    .footer_contact-search{
+        justify-content: space-between;
+    }
+    .footer_contact-search-input{
+        width: 90%;
+    }
+    .footer_info-navbar{
+        margin: 2rem 0 4.6rem 0;
+    }
+    .footer_info-end{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_info-end--text{
+        margin-bottom: 1.6rem;
+    }
+    .content__package-tour-main{
+        margin-bottom: 3rem;
+    }
+}
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .padding-mobile-tablet{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .best_beaches>.wide{
+        width: unset;
+    }
+    .content__package>.wide{
+        width: unset;
+    }
+    .content__package{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .float{
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width:739px){
+    .padding-mobile-tablet{
+        padding-left: 217px;
+        padding-right: 217px;
+    }
+    .content__package{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+/* Pc */
+@media (min-width:1024px){
+    .hide__pc{
+        display: none;
+    }
+    .header__slider-search{
+        transform: translateX(-50%);
+        width: 400px;
+        position: absolute;
+        left: 50%;
+    }
+    .header__slider-wrap-category-item--square{
+        width: 100px;
+        position: relative;
+        left: 25%;
+    }
+}
+
+
