@@ -139,6 +139,9 @@
     .content__package-tour-main{
         margin-bottom: 3rem;
     }
+    .float{
+        display: none;
+    }
 }
 /* Tablet */
 @media (min-width:740px) and (max-width:1023px){
@@ -156,9 +159,7 @@
         padding-left: 3rem;
         padding-right: 3rem;
     }
-    .float{
-        display: none;
-    }
+    
 }
 /* Mobile */
 @media (max-width:739px){
